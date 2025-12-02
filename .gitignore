@@ -11,3 +11,6 @@ xcuserdata/
 
 # General
 .DS_Store
+
+# Secrets
+Config.swift

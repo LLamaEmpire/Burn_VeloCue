@@ -33,9 +33,9 @@ import SpotifyiOS
 @Observable
 class SpotifyService: NSObject {
     // MARK: - Configuration
-    // TODO: Replace with your Spotify app credentials from Spotify Developer Dashboard
-    static let clientID = "**************"
-    static let redirectURI = URL(string: "velocue://spotify-callback")!
+    // Spotify credentials from Config.swift (local, ignored by git)
+    static let clientID = SPOTIFY_CLIENT_ID
+    static let redirectURI = URL(string: SPOTIFY_REDIRECT_URI)!
     
     // MARK: - State
     var isConnected: Bool = false
